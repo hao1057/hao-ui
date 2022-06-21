@@ -3,10 +3,9 @@
 :::demo
 ```vue
 <template>
-  <HellowWorld></HellowWorld>
+ <Test></Test>
 </template>
 ```
 :::
-
-
+<HelloWorld></HelloWorld>
 <Test></Test>

@@ -8,7 +8,10 @@ import Test from './components/Test'
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
-  <Test></Test>
+  <Test>
+    <template #default> aaaa </template>
+    <template #title><h3>title</h3></template>
+  </Test>
 </template>
 
 <style>
